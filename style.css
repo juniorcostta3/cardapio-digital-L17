@@ -1,0 +1,15 @@
+/* reset das margens e paddings */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box ;
+}
+/* definição das variáveis */
+:root{
+    --fundo-barra-navegacao: #1E1F22;
+    --titulo-plano-fundo: #FFAE00;
+    --plano-fundo-cards: RGBA(37, 37, 37, 0.8);
+    --cor-textos: #ffffff;
+}
+/* add, commit e push */
+

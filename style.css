@@ -6,6 +6,12 @@
     font-family: sans-serif;
 }
 
+body{
+    background-image: url('imagens/bg.png');
+    text-align: center;
+    color: var(--texto);
+}
+
 /* definição das variáveis de css */
 :root{
     --nome-variavel: 'valor';

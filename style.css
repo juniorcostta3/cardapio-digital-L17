@@ -1,16 +1,16 @@
-/* reset das margens e paddings */
+/* reset das margins e paddings  */
 *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box ;
-}
-/* definição das variáveis */
-:root{
-    --fundo-barra-navegacao: #1E1F22;
-    --titulo-plano-fundo: #FFAE00;
-    --plano-fundo-cards: RGBA(37, 37, 37, 0.8);
-    --cor-textos: #ffffff;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
 }
 
-/* add, commit e push */
+/* definição das variáveis de css */
+:root{
+    --nome-variavel: 'valor';
+    --corBox:rgba(37, 37, 37, 0.8);
+    --corBarraNavegacao:rgb(30, 31, 34);
+    --subTituloEbotoes: rgb(255, 174, 0);
+    --texto: white;    
+}
 

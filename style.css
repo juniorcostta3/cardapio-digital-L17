@@ -25,6 +25,7 @@ body{
 }
 
 header{
+    position: fixed;           
     background-color: var(--corBarraNavegacao);
     text-align: center;
     padding: 25px;
@@ -33,6 +34,13 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+}
+
+main{
+    position: relative;
+    top: 250px;
+    z-index: -1;
 }
 
 nav ul{

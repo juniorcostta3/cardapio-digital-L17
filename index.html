@@ -19,10 +19,22 @@
                 <li><a href="#burguer">Hamburgueres</a></li>
                 <li><a href="#acompanhamentos">Acompanhamentos</a></li>
                 <li><a href="#bebidas">Bebidas</a></li>
-                <li><a href="#carrinho">Carrinho</a></li>
+                <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="offcanvasRight">Carrinho</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- CARRINHO AO LADO DIREITO -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="carrinho" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrinho</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem a nobis nihil quia sed ducimus nemo ex cupiditate minus culpa velit quaerat corporis, dolores eaque cum blanditiis accusamus aliquid necessitatibus.</p>
+  </div>
+</div>
+
     <!-- https://placehold.co/600x400?text=Hello\nWorld -->
     <div class="container position-relative">
         <div id="carouselExampleIndicators" class="carousel slide">

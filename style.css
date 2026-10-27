@@ -22,6 +22,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 250px;
+}
+
+main{
+    position: static;
 }
 
 header{
@@ -34,6 +39,9 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+
+    z-index: 1031;
+    top: 0;
     
 }
 
@@ -106,5 +114,9 @@ p{
 .redondo{
     width: 20px;
     height: 20px;
-    
+
+}
+
+[id]{
+    scroll-margin-top: 250px;
 }
